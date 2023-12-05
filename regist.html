@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/regist.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <i class="fa-solid fa-bars" id="header-menu-icon"></i>
+    </div>
+
+    <div id="side-menu">
+        <i class="fa-solid fa-caret-down" id="side-menu-icon"></i>
+        <h1 id="h1-menu"><a href="concessionaire.html">Inicio</a></h1>
+        <h1 id="h1-menu"><a href="brands.html">Marcas</a></h1>
+        <h3 id="h3-menu"><a href="nissan.html">Nissan</a></h3>
+        <h3 id="h3-menu"><a href="mitsubishi.html">Mitsubishi</a></h3>
+        <h3 id="h3-menu"><a href="honda.html">Honda</a></h3>
+        <h3 id="h3-menu"><a href="toyota.html">Toyota</a></h3>
+        <h3 id="h3-menu"><a href="mazda.html">Mazda</a></h3>
+        <h1 id="h1-menu"><a href="offers.html">Ofertas</a></h1>
+        <h1 id="h1-menu"><a href="findus.html">Donde encontrarnos</a></h1>
+        <h1 id="h1-menu"><a href="suggests.html">Sugerencias</a></h1>
+    </div>
+
+    <div id="explanation-text">
+        <div id="text">
+            <h2>¿Eres un nuevo cliente?</h2>
+            <h2>¡Registrate y recibe ofertas personalizadas!</h2>
+        </div>
+    </div>
+
+<div class="left-side">
+    <form id="signup-form" action="regist_response.html">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre" name="name">
+            <span id="name-error">error: Es obligatorio rellenar este campo</span>
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="mail" class="form-label">Correo:</label>
+            <input type="text" class="form-control" id="mail" placeholder="Introduce tu correo" name="mail">
+            <span id="mail-error">error: Es obligatorio rellenar este campo</span>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="password" placeholder="Introduce una contraseña" name="password">
+            <span id="password-error">error: Es obligatorio rellenar este campo</span>
+        </div>
+        <div class="mb-3">
+            <label for="password-conf" class="form-label">Confirma Contraseña:</label>
+            <input type="password" class="form-control" id="password-conf" placeholder="Repite la contraseña" name="password-conf">
+            <span id="password-conf-error">error: Confirme la contraseña</span>
+            <span id="password-match-error">error: Las conraseñas deben coincidir</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<div id="footer">
+    <h1>© 2023. Todos los derechos reservados</h1>
+</div>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="js/signup-form.js"></script>
+    <script src="https://kit.fontawesome.com/abeb2ec600.js" crossorigin="anonymous"></script>
+    <script src="js/side-menu.js"></script>
+</body>
+
+</html>

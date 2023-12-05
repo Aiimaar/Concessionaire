@@ -1,0 +1,480 @@
+body {
+    background-image: url('../img/jdm.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100vw;
+    height: 56px;
+    position: fixed;
+    background-color: green;
+}
+
+#header i {
+    margin-top: 1.2em;
+    margin-left: 1em;
+    color: yellow;
+}
+
+#side-menu {
+    position: fixed;
+    z-index: 10000;
+    width: 44vw;
+    height: 100vh;
+    background-color: green;
+    visibility: hidden;
+}
+
+#side-menu i {
+    margin-top: 1em;
+    margin-left: 1em;
+    color: yellow;
+}
+
+#h1-menu {
+    margin-top: 1em;
+    margin-left: 1em;
+    color: yellow;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h3-menu {
+    margin-top: 1em;
+    margin-left: 3em;
+    color: yellow;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(64, 79, 165);;
+}
+
+#offer-text-impreza {
+    display: flex;
+    align-items: center;
+}
+
+#i30N {
+    display: flex;
+    align-items: center;
+}
+
+#imagen-subaru {
+    margin-top: 10.5em;
+    margin-left: 7.5em;
+    width: 40vw;
+    height: 30vw;
+    float: center;
+}
+
+#imagen-subaru img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#texto-impreza {
+    margin-top: 22em;
+    margin-left: -9em;
+    color: black;
+}
+
+#texto-impreza h1{
+    font-size: 13px;
+} 
+
+#texto-impreza h2{
+    font-size: 13px;
+}
+
+#imagen-i30N {
+    margin-top: 29em;
+    margin-left: 7.5em;
+    width: 40vw;
+    height: 30vw;
+    float: center;
+}
+
+#imagen-i30N img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#texto-i30N{
+    margin-top: 39em;
+    margin-left: -7em;
+    color: black;
+}
+
+#texto-i30N h1{
+    font-size: 13px;
+} 
+
+#texto-i30N h2{
+    font-size: 13px;
+}
+
+#footer {
+    margin-top: 20em;
+    margin-left: 8em;
+    font-size: 8px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #header {
+        width: 100vw;
+        height: 56px;
+        position: fixed;
+        background-color: green;
+    }
+    
+    #header i {
+        margin-top: 1.2em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #side-menu {
+        position: fixed;
+        z-index: 10000;
+        width: 35vw;
+        height: 100vh;
+        background-color: green;
+        visibility: hidden;
+    }
+    
+    #side-menu i {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #h1-menu {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #h3-menu {
+        margin-top: 1em;
+        margin-left: 3em;
+        color: yellow;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    a:hover {
+        color: rgb(64, 79, 165);;
+    }
+    
+    #offer-text-impreza {
+        display: flex;
+        align-items: center;
+    }
+    
+    #i30N {
+        display: flex;
+        align-items: center;
+    }
+
+    #imagen-subaru {
+        margin-top: 3em;
+        margin-left: 9.7em;
+        width: 50vw;
+        height: 40vw;
+        float: center;
+    }
+
+    #imagen-subaru img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-impreza {
+        margin-top: 33em;
+        margin-left: -14em;
+        color: black;
+    }
+
+    #imagen-i30N {
+        margin-top: -11em;
+        margin-left: 9.7em;
+        width: 50vw;
+        height: 40vw;
+        float: center;
+    }
+
+    #imagen-i30N img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-i30N{
+        margin-top: 40em;
+        margin-left: -12em;
+        margin-bottom: 20em;
+        color: black;
+    }
+
+    #footer{
+        margin-top: -25em;
+        margin-left: 22em;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #header {
+        width: 140vw;
+        height: 56px;
+        position: fixed;
+        background-color: green;
+    }
+    
+    #header i {
+        margin-top: 1.2em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #side-menu {
+        position: fixed;
+        z-index: 10000;
+        width: 35vw;
+        height: 100vh;
+        background-color: green;
+        visibility: hidden;
+    }
+    
+    #side-menu i {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #h1-menu {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #h3-menu {
+        margin-top: 1em;
+        margin-left: 3em;
+        color: yellow;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    a:hover {
+        color: rgb(64, 79, 165);;
+    }
+    
+    #offer-text-impreza {
+        display: flex;
+        align-items: center;
+    }
+    
+    #i30N {
+        display: flex;
+        align-items: center;
+    }
+
+    #imagen-subaru {
+        margin-top: -2em;
+        margin-left: 10em;
+        width: 60vw;
+        height: 50vw;
+        float: center;
+    }
+
+    #imagen-subaru img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-impreza {
+        margin-top: 38em;
+        margin-left: -19em;
+        color: black;
+    }
+
+    #imagen-i30N {
+        margin-top: -50em;
+        margin-left: 10em;
+        width: 60vw;
+        height: 50vw;
+        float: center;
+    }
+
+    #imagen-i30N img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-i30N{
+        margin-top: 39em;
+        margin-left: -17em;
+        margin-bottom: 50em;
+        color: black;
+    }
+
+    #footer{
+        margin-top: -90em;
+        margin-left: 33em;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #header {
+        width: 100vw;
+        height: 56px;
+        position: fixed;
+        background-color: green;
+    }
+    
+    #header i {
+        margin-top: 1.2em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #side-menu {
+        position: fixed;
+        z-index: 10000;
+        width: 25vw;
+        height: 100vh;
+        background-color: green;
+        visibility: hidden;
+    }
+    
+    #side-menu i {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+    }
+    
+    #h1-menu {
+        margin-top: 1em;
+        margin-left: 1em;
+        color: yellow;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #h3-menu {
+        margin-top: 1em;
+        margin-left: 3em;
+        color: yellow;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    a:hover {
+        color: rgb(64, 79, 165);;
+    }
+    
+    #offer-text-impreza {
+        display: flex;
+        align-items: center;
+    }
+    
+    #i30N {
+        display: flex;
+        align-items: center;
+    }
+
+    #imagen-subaru {
+        margin-top: -6em;
+        margin-left: 23em;
+        width: 40vw;
+        height: 30vw;
+        float: center;
+    }
+
+    #imagen-subaru img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-impreza {
+        margin-top: 31em;
+        margin-left: -16em;
+        font-size: 20px;
+        color: black;
+    }
+
+    #imagen-i30N {
+        margin-top: -12em;
+        margin-left: 23em;
+        width: 40vw;
+        height: 30vw;
+        float: center;
+    }
+
+    #imagen-i30N img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #texto-i30N{
+        margin-top: 32em;
+        margin-left: -14.5em;
+        font-size: 20px;
+        margin-bottom: 6em;
+        color: black;
+    }
+
+    #footer{
+        margin-top: -6em;
+        margin-left: 58em;
+    }
+
+}
